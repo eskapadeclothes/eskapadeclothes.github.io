@@ -1,4 +1,4 @@
 User-Agent: *
 Disallow:
 
-Sitemap: http://tapack.github.io/sitemap.xml
+Sitemap: http://eskapade.com.au/sitemap.xml
