@@ -1,0 +1,13 @@
+.topcontainer{
+    height: 165px;
+    background-color: #ffffff;
+}
+body{
+    background-image: url("../../img/bg1.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100% 100%;
+    max-height: 100%;
+    max-width: 100%;
+}
