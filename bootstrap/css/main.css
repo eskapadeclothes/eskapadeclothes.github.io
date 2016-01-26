@@ -14,6 +14,8 @@ body{
 .footcontainer{
     background-color: #ffffff;
     height: 120px;
+    position: inherit;
+
 }
 .footimgcont>img{
     margin: 10px;
@@ -48,6 +50,9 @@ body{
         height: 90px;
     }
     .footcontainer{
+        position: absolute;
+        width:100%;
+        bottom: 0;
         height: 90px;
     }
 }
@@ -70,6 +75,9 @@ body{
     }
     .footcontainer{
         height: 50px;
+        position: absolute;
+        width:100%;
+        bottom: 0;
     }
     .footimgcont{
         height: 45px;
