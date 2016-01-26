@@ -1,6 +1,8 @@
 .topcontainer{
-    height: 180px;
-
+    height: 140px;
+}
+.topcontainer>center>img{
+    height: 120px;
 }
 body{
     background-color: #191816;
@@ -9,7 +11,14 @@ body{
     float: right;
 }
 
-
+.footcontainer{
+    background-color: #ffffff;
+    height: 120px;
+}
+.footimgcont>img{
+    margin: 10px;
+    height: 100px;
+}
 .midcontainer{
     background-image: url("../../img/bg.png");
     background-repeat: no-repeat;
@@ -20,22 +29,50 @@ body{
 }
 @media (min-width: 768px) and (max-width: 991px) {
     .midcontainer {
-        display: none !important;
-        height: 0;
-        background-image: none;
+        height: 200px;
     }
     .sbmt{
         float: right !important;
+    }
+    .topcontainer{
+        height: 100px;
+    }
+    .topcontainer>center>img{
+        height: 90px;
+    }
+    .footimgcont>img{
+        margin: 5px;
+        height: 80px;
+    }
+    .footimgcont{
+        height: 90px;
+    }
+    .footcontainer{
+        height: 90px;
     }
 }
 @media (max-width: 767px) {
     .midcontainer {
-        display: none !important;
-        height: 0;
-        background-image: none;
+        height: 125px;
     }
     .sbmt{
         float: right !important;
+    }
+    .topcontainer{
+        height: 80px;
+    }
+    .topcontainer>center>img{
+        height: 70px;
+    }
+    .footimgcont>img{
+        margin: 2px;
+        height: 50px;
+    }
+    .footcontainer{
+        height: 70px;
+    }
+    .footimgcont{
+        height: 60px;
     }
 }
 .botcontainer{
