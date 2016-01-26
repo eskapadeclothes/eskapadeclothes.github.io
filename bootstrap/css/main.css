@@ -58,7 +58,7 @@ body{
 }
 @media (max-width: 767px) {
     .midcontainer {
-        height: 450px;
+        height: 400px;
     }
     .sbmt{
         float: right !important;
