@@ -14,8 +14,9 @@ body{
 .footcontainer{
     background-color: #ffffff;
     height: 120px;
-    position: inherit;
-
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 .footimgcont>img{
     margin: 10px;
@@ -26,7 +27,7 @@ body{
     background-repeat: no-repeat;
     background-position: center ;
     background-size: 100% auto;
-    height:450px;
+    height:310px;
     max-height: 50%;
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -82,6 +83,34 @@ body{
     .footimgcont{
         height: 45px;
     }
+}
+@media (min-width: 992px) {
+    .midcontainer {
+        height: 300px;
+    }
+    .sbmt{
+        float: right !important;
+    }
+    .topcontainer{
+        height: 100px;
+    }
+    .topcontainer>center>img{
+        height: 90px;
+    }
+    .footimgcont>img{
+        margin: 2px;
+        height: 70px;
+    }
+    .footcontainer{
+        height: 75px;
+        position: fixed;
+        width:100%;
+        bottom: 0;
+    }
+    .footimgcont{
+        height: 45px;
+    }
+
 }
 .botcontainer{
     height: 160px;
