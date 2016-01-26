@@ -31,7 +31,7 @@ body{
 }
 @media (min-width: 768px) and (max-width: 991px) {
     .midcontainer {
-        height: 200px;
+        height: 400px;
     }
     .sbmt{
         float: right !important;
@@ -58,7 +58,7 @@ body{
 }
 @media (max-width: 767px) {
     .midcontainer {
-        height: 125px;
+        height: 450px;
     }
     .sbmt{
         float: right !important;
