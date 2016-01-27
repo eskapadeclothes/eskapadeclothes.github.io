@@ -34,13 +34,13 @@ body{
 }
 @media(min-width:992px){
     .midcontainer{
-        height: 350px;
+        height: 500px;
         background-position: center;
     }
 }
 @media(min-width: 1200px){
     .midcontainer{
-        height: 30%;
+        height: 650px;
         background-position: center;
     }
 }
