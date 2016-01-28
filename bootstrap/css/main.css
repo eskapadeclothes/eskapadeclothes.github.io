@@ -8,6 +8,9 @@
     height: 160px;
     padding-top: 20px;
 }
+.fb-img{
+    height: 65px;
+}
 body{
     background-color: #191816;
 }
@@ -16,7 +19,7 @@ body{
 }
 
 .footcontainer{
-    background-color: #ffffff;
+    background-color: #191816;
     height: 120px;
     width: 100%;
 }
@@ -32,34 +35,6 @@ body{
 }
 
 
-@media (min-width: 768px) and (max-width: 991px) {
-    .midcontainer {
-        height: 300px;
-        background-position: center;
-    }
-    .sbmt{
-        float: right !important;
-    }
-    .topcontainer{
-        height: 100px;
-    }
-    .topcontainer>center>img{
-        height: 90px;
-    }
-    .footimgcont>center>img{
-        margin: 5px;
-        height: 80px;
-    }
-    .footimgcont{
-        height: 90px;
-    }
-    .footcontainer{
-        position: relative;
-        width:100%;
-        bottom: 0;
-        height: 90px;
-    }
-}
 @media (max-width: 767px) {
     .midcontainer {
         height: 200px;
@@ -91,10 +66,15 @@ body{
         height: 60px;
         padding-top: 0;
     }
+    .fb-img{
+        float: right;
+        margin-bottom: 2px;
+    }
 }
-@media (min-width: 992px) {
+
+@media (min-width: 768px) and (max-width: 991px) {
     .midcontainer {
-        height: 325px;
+        height: 300px;
         background-position: center;
     }
     .sbmt{
@@ -107,17 +87,48 @@ body{
         height: 90px;
     }
     .footimgcont>center>img{
-        margin: 2px;
-        height: 50px;
+        margin: 5px;
+        height: 80px;
+    }
+    .footimgcont{
+        height: 90px;
     }
     .footcontainer{
-        height: 55px;
-        position: fixed;
+        position: relative;
+        width:100%;
+        bottom: 0;
+        height: 90px;
+    }
+}
+@media (min-width: 992px) {
+    .midcontainer {
+        height: 325px;
+        background-position: center;
+    }
+    .sbmt{
+        float: right !important;
+    }
+    .topcontainer{
+        height: 140px;
+    }
+    .topcontainer>center>img{
+        height: 130px;
+    }
+    .footimgcont>center>img{
+        margin: 2px;
+        height: 60px;
+    }
+    .footcontainer{
+        height: 65px;
         width:100%;
         bottom: 0;
     }
     .footimgcont{
-        height: 45px;
+        height: 65px;
+    }
+    .fb-img{
+        float: right;
+        margin-bottom: 10px;
     }
 
 }
@@ -125,6 +136,12 @@ body{
     .midcontainer{
         height: 500px;
         background-position: center;
+    }
+    .topcontainer{
+        height: 170px;
+    }
+    .topcontainer>center>img{
+        height: 160px;
     }
     .footimgcont>center>img{
         margin: 5px;
@@ -134,10 +151,13 @@ body{
         height: 100px;
     }
     .footcontainer{
-        position: fixed;
         width:100%;
         bottom: 0;
         height: 110px;
+    }
+    .fb-img{
+        float: right;
+        margin-bottom: 10px;
     }
 }
 
