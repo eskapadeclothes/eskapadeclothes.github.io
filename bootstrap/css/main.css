@@ -36,6 +36,19 @@ body{
         height: 650px;
         background-position: center;
     }
+    .footimgcont>center>img{
+        margin: 5px;
+        height: 90px;
+    }
+    .footimgcont{
+        height: 100px;
+    }
+    .footcontainer{
+        position: fixed;
+        width:100%;
+        bottom: 0;
+        height: 110px;
+    }
 }
 @media (min-width: 768px) and (max-width: 991px) {
     .midcontainer {
@@ -113,10 +126,11 @@ body{
     }
     .footimgcont>center>img{
         margin: 2px;
-        height: 70px;
+        height: 50px;
     }
     .footcontainer{
-        height: 75px;
+        height: 55px;
+        position: fixed;
         width:100%;
         bottom: 0;
     }
