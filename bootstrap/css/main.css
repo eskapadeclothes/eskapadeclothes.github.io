@@ -31,25 +31,7 @@ body{
     max-height: 50%;
 }
 
-@media(min-width: 1200px){
-    .midcontainer{
-        height: 650px;
-        background-position: center;
-    }
-    .footimgcont>center>img{
-        margin: 5px;
-        height: 90px;
-    }
-    .footimgcont{
-        height: 100px;
-    }
-    .footcontainer{
-        position: fixed;
-        width:100%;
-        bottom: 0;
-        height: 110px;
-    }
-}
+
 @media (min-width: 768px) and (max-width: 991px) {
     .midcontainer {
         height: 300px;
@@ -138,6 +120,25 @@ body{
         height: 45px;
     }
 
+}
+@media(min-width: 1200px){
+    .midcontainer{
+        height: 650px;
+        background-position: center;
+    }
+    .footimgcont>center>img{
+        margin: 5px;
+        height: 90px;
+    }
+    .footimgcont{
+        height: 100px;
+    }
+    .footcontainer{
+        position: fixed;
+        width:100%;
+        bottom: 0;
+        height: 110px;
+    }
 }
 
 .fg-white{
