@@ -9,7 +9,9 @@
     padding-top: 20px;
 }
 .fb-img{
-    height: 65px;
+    border-radius: 3px;
+    height: 75px;
+    box-shadow: 0 0 7px 0 #ffffff;
 }
 body{
     background-color: #191816;
@@ -43,14 +45,17 @@ body{
         float: right !important;
     }
     .topcontainer{
-        height: 80px;
+        height: 90px;
     }
     .topcontainer>center>img{
-        height: 76px;
+        height: 86px;
     }
     .footimgcont>center>img{
         margin: 2px;
         height: 38px;
+    }
+    .nzrelologo>center>img{
+        height: 35px;
     }
     .footcontainer{
         padding-top:3px;
